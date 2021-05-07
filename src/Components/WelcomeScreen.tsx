@@ -2,9 +2,6 @@ import React from "react";
 import {Col,Row,Image} from "react-bootstrap";
 import Imagelib from '../Assets/Images/Welcome.jpg'
 const WelcomeScreen:React.FC=()=>{
-    //This is Test for GIT
-    const git:string="git sucks";
-    console.log(git)
     return(
             <Row className="welcome">
                 <Col  xs={12} className={'text-center'}>
