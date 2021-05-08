@@ -3,14 +3,12 @@ import {Col,Row,Image} from "react-bootstrap";
 import Imagelib from '../Assets/Images/Welcome.jpg'
 const WelcomeScreen:React.FC=()=>{
     return(
-            //Another Comment to test GIT
-            //Mallleeeee 22222222222
             <Row className="welcome">
                 <Col  xs={12} className={'text-center'}>
                     <h1>My Library</h1>
                 </Col>
 
-                 <Col xs={12} >
+                 <Col xs={12} className={"px-0"}>
                      <Image src={Imagelib} alt={'Library'}/>
                 </Col>
 
