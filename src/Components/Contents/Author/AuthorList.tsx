@@ -1,8 +1,14 @@
 import React from "react";
+import {Col, Row} from "react-bootstrap";
 
 const Authorlist= ()=>{
     return(
-        <label className='msg-lbl'>No Authors Listed</label>
+        <Row>
+            <Col xs={12}>
+                <label className='msg-lbl'>No Authors Listed</label>
+            </Col>
+        </Row>
+
 
     )
 }

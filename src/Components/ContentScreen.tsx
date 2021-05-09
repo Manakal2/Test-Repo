@@ -2,6 +2,7 @@ import React from "react";
 import {Col, Row} from "react-bootstrap";
 import AuthorTitle from "./Contents/Author/AuthorTitle";
 import BookTitle from "./Contents/Book/BookTitle";
+import Authorlist from "./Contents/Author/AuthorList";
 
 const ContentScreen=()=>{
     return(
@@ -12,9 +13,10 @@ const ContentScreen=()=>{
 
             <Col className='Author'>
                 <AuthorTitle/>
+                <Authorlist/>
             </Col>
-        </Row>
 
+        </Row>
     )
 }
 

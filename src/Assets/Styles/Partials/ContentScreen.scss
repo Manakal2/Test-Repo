@@ -2,19 +2,21 @@ $underline-color:#2e3235;
 $subtitle-color:#292d2c;
 
 .Content{
-    .Author{
+    .sub-title{
         color: $subtitle-color;
         border-bottom:3px solid $underline-color ;
         margin-right: 30px;
         margin-left: 50px;
     }
-    .Book{
+/*    .Book{
         color: $subtitle-color;
         border-bottom: 3px solid $underline-color;
         margin-right: 30px;
         margin-left: 30px;
-    }
+    }*/
     .msg-lbl{
         font-size: 1.2em;
+        margin-right: 30px;
+        margin-left: 50px;
     }
 }

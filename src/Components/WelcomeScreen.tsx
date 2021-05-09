@@ -4,7 +4,7 @@ import Imagelib from '../Assets/Images/Welcome.jpg'
 const WelcomeScreen:React.FC=()=>{
     return(
             <Row className="welcome">
-                <Col  xs={12} className={'text-center'}>
+                <Col  xs={12} className={'text-center px-0'}>
                     <h1>My Library</h1>
                 </Col>
 
