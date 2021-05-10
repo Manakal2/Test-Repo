@@ -1,5 +1,7 @@
 $underline-color:#2e3235;
 $subtitle-color:#292d2c;
+$li-hover-color:#f5f5f5;
+
 
 .Content{
     .sub-title{
@@ -9,8 +11,20 @@ $subtitle-color:#292d2c;
         margin-left: 50px;
     }
     .msg-lbl{
-        font-size: 1.2em;
+        font-size: 1em;
+        color: #4f5450;
         margin-right: 30px;
         margin-left: 50px;
+    }
+
+    ul{
+        li{
+            font-size: 0.95em;
+            color: #4f5450;
+
+            &:hover{
+                background-color:$li-hover-color;
+            }
+        }
     }
 }
